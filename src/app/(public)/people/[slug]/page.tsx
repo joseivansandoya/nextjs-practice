@@ -7,3 +7,5 @@ export async function generateStaticParams() {
 
   return people.map((slug) => ({ slug }))
 }
+
+export const dynamicParams = false;
