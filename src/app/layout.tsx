@@ -17,10 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='border border-red-300 p-4'>
-          <h1>Star Wars</h1>
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   )
